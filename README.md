@@ -8,7 +8,7 @@
 
 /opt/mapr/spark/spark-2.2.1/bin/spark-submit  --class ElasticsearchAliasOps /tmp/elasticsearchaliasops_2.10-1.0.jar #createIndexes "fw" 3 "/tmp/createIndex/cr.txt"
 
-#To create and alias
+#To create an alias
 
 bin/spark-submit --class ElasticsearchAliasOps /tmp/elasticsearchaliasops_2.10-1.0.jar createAlias 7 fw WeeklyFirewall
 
