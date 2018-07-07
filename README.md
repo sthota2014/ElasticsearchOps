@@ -11,6 +11,7 @@
 #-------------------------------------------------------------------------------------------------
 
 bin/spark-submit --class ElasticsearchAliasOps /tmp/elasticsearchops_2.11-1.0.jar createIndexes "fw" 3 "/tmp/createIndex/cr.txt"
+
 fw20180707
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
@@ -31,6 +32,7 @@ fw20180707
 #-------------------------------------------------------------------------------------------------
 
 bin/spark-submit --class ElasticsearchAliasOps /tmp/elasticsearchops_2.11-1.0.jar createAlias 7 fw WeeklyFirewall
+
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100   534  100    21  100   513    881  21522 --:--:-- --:--:-- --:--:-- 22304
@@ -43,6 +45,7 @@ bin/spark-submit --class ElasticsearchAliasOps /tmp/elasticsearchops_2.11-1.0.ja
 #-------------------------------------------------------------------------------------------------
 
 bin/spark-submit --class ElasticsearchAliasOps /tmp/elasticsearchops_2.11-1.0.jar getAliases
+
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100   224  100   224    0     0  35572      0 --:--:-- --:--:-- --:--:-- 37333
@@ -61,6 +64,7 @@ WeeklyFirewall fw20180704 - - -
 #-------------------------------------------------------------------------------------------------
 
 bin/spark-submit --class ElasticsearchAliasOps /tmp/elasticsearchops_2.11-1.0.jar removeAlias WeeklyFirewall fw
+
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
 100   224  100   224    0     0  38030      0 --:--:-- --:--:-- --:--:-- 44800
