@@ -1,8 +1,7 @@
 # ElasticsearchOps
 
-#This helps to create indexes in Elastisearch given a definition file for the index creation with settings and mappings.
-
-#Also helps to create alias, see existing aliases, remove an alias. 
+>This helps to create indexes in Elastisearch given a definition file for the index creation with settings and mappings.
+>Also helps to create alias, see existing aliases, remove an alias. 
 
 #-------------------------------------------------------------------------------------------------
 
