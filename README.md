@@ -4,13 +4,9 @@
 >Also helps to create alias, see existing aliases, remove an alias. 
 
 ^-------------------------------------------------------------------------------------------------
-
-^#To create indexes for 3 days. The file cr.txt contains index definition lined-up in one-line.
-
-^#-------------------------------------------------------------------------------------------------
-
+^To create indexes for 3 days. The file cr.txt contains index definition lined-up in one-line.
+^-------------------------------------------------------------------------------------------------
 ^bin/spark-submit --class ElasticsearchAliasOps /tmp/elasticsearchops_2.11-1.0.jar createIndexes "fw" 3 "/tmp/createIndex/cr.txt"
-
 ^fw20180707
 ^  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
 ^                                 Dload  Upload   Total   Spent    Left  Speed
@@ -24,7 +20,7 @@
 ^                                 Dload  Upload   Total   Spent    Left  Speed
 ^100   125  100    48  100    77   1117   1792 --:--:-- --:--:-- --:--:--  1833
 ^
-^#-------------------------------------------------------------------------------------------------
+^-------------------------------------------------------------------------------------------------
 
 #To create an alias starting from today until 7 days back
 
