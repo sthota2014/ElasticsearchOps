@@ -10,6 +10,7 @@
 #-------------------------------------------------------------------------------------------------
 
 bin/spark-submit --class ElasticsearchAliasOps /tmp/elasticsearchops_2.11-1.0.jar createIndexes "fw" 3 "/tmp/createIndex/cr.txt"
+
 fw20180707
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
